@@ -95,14 +95,14 @@ fun TareasApp() {
             ListaDeTareas(
                 tareas = tareas,
                 onTareaCompletada = { tarea ->
-                    // Lógica para marcar una tarea como completada
+
                     tarea.completada = !tarea.completada
                 },
                 onTareaBorrada = { tarea ->
-                    // Lógica para borrar una tarea
+
                     tareas.remove(tarea)
                 }
-            )
+            )//hecho por vicente
         }
     )
 }
